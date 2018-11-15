@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  height: 200vh;
+  background-color: green;
+}
+#title {
+  width:100vw;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin: auto;
+}
+#mainBanner {
+  width: 100vw;
+  height: 300px;
+  margin: 50px auto;
+  background-image: url("https://ak1.ostkcdn.com/img/mxc/11132018_PreBlackFriday_1680_BG_HighV2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 600px){
+  #title {
+    font-size: 50px;
+  }
+}
+/* @media (max-width: 950px){
+  #title {
+    width: 100vw;
+  }
+}
+@media (max-width: 675px){
+  #title {
+    font-size: 25px;
+  }
+} */
